@@ -1,0 +1,70 @@
+@import url(/src/css/reset.css);
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cabeca{
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.lado_esquerdo, .meio, .lado_direito{
+   display: flex;
+   align-items: center;
+}
+
+.lado_esquerdo{
+    padding-top: 18px;
+}
+
+.meio{
+    padding-top: 8px;
+}
+
+.lado_direito{
+    padding-top: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    
+}
+
+.video{    
+    padding-top: 40px;
+    padding-left: 40px;
+    width: 957px;
+    height: 850px;
+}
+
+.video img{
+    padding-top: 10px;
+}
+
+.video h4{
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.video p{
+    padding-top: 20px;
+}
+
+main h3{
+    font-size: 20px;
+    margin: 20px 0px;
+   
+    font-weight: bold;
+}
+
+.lateral{
+    padding-top: 50px;
+    margin-right: 20px;
+}
